@@ -7,7 +7,7 @@ import { createNewUser, signInUser } from "./handlers/user";
 
 const app = express();
 
-app.get("/", (res:any)=>{
+app.get("", (res:any)=>{
 res.json({message: "Nope from the Server"})
 })
 
